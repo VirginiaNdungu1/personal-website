@@ -8,7 +8,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  min-height: 756px;
+  min-height: 818px;
   /* height: 75%; */
   background: url(../assets/backgrounds/bg.jpg);
   background-size: cover;
@@ -113,16 +113,151 @@
   border-bottom-width: 1px;
 }
 
-
-/*
 .about {
   position: relative;
-  text-align: center;
-  margin-top: top: 750px;
+  width: 100%;
+  min-height: 759px;
   right: 0;
   bottom: 0;
   left: 0;
-}*/
+}
+
+.about-pic {
+  float: left;
+  width: 50%;
+  min-height: 759px;
+  background-color: #ca312e;
+  display: block;
+  position: relative;
+}
+
+.about-pic .about-name {
+  text-align: center;
+  width: 20%;
+  height: 30%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 3.5%;
+  /*background-image: url(../assets/about/about-me-icon.jpg);
+  background-position: center;*/
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 112px;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 0.26em;
+}
+
+.about-pic .about-name img {
+  height: 30;
+  width: 100;
+  vertical-align: middle;
+  position: relative;
+}
+
+.about-intro {
+  float: right;
+  width: 50%;
+  min-height: 818px;
+  position: relative;
+}
+
+.about-intro .about-text {
+  /*text-align: center;*/
+  margin-left: 15%;
+  margin-top: 15%;
+  margin-bottom: 30%;
+  /*font-family: "brandon-grotesque";
+  font-size: 13px;
+  line-height: 2.2;
+  font-weight: 300;
+  letter-spacing: 0.26em;*/
+}
+
+.about-intro .about-text .hello {
+  /*font-family: 'Cabin', Helvetica, Arial, sans-serif;*/
+  /*font-family: 'Lobster', Georgia, Times, serif;*/
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Flamenco', 'asap';
+  font-size: 30px;
+  font-weight: 1000;
+  /*color: #6f625b;*/
+  color: #888;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 46px;
+  margin: 0 0 23px 0;
+  */
+}
+
+.about-intro .about-text .name {
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: #888;
+  /*color: #343434;*/
+  margin-bottom: 5%;
+  /*font-family: 'Lobster', Georgia, Times, serif;*/
+  /*font-family: 'Cabin', Helvetica, Arial, sans-serif;*/
+  font-family: 'Flamenco', 'asap';
+  /*font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -2px;
+  font-weight: 600;*/
+  /*font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  font-style: italic;*/
+}
+
+.about-intro .about-text .passion {
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Cabin', Helvetica, Arial, sans-serif;*/
+  font-family: 'Flamenco', 'asap';
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #888;
+  margin-bottom: 7%;
+}
+
+.about-intro .about-text .quote {
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Cabin', Helvetica, Arial, sans-serif;*/
+  font-family: 'Flamenco', 'asap';
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-weight: 550;
+  color: #888;
+  margin-left: 15%;
+  margin-top: -15%;
+}
+
+.about-intro .about-text .quote-author {
+  /*font-family: 'pacifico', cursive;*/
+  font-family: 'Flamenco', 'asap';
+  /*font-family: 'Cabin', Helvetica, Arial, sans-serif;*/
+  /*text-align: center;*/
+  font-weight: 550;
+  color: #888;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  margin-left: 15%;
+  letter-spacing: 2px
+}
 
 @media (max-width: 600px) {
   .name {
