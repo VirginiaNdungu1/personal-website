@@ -68,10 +68,11 @@
   right: 0;
   bottom: 0;
   left: 0;
-  min-height: 756px;
-  background-image: url(../assets/backgrounds/triangles.png);
+  min-height: 500px;
+  background: url(../assets/backgrounds/triangles.png);
   background-size: cover;
   background-position: center;
+  /*background-repeat: no-repeat;*/
   opacity: .03;
 }
 
@@ -176,7 +177,7 @@
 .about-intro {
   float: right;
   width: 50%;
-  min-height: 818px;
+  min-height: 758px;
   position: relative;
 }
 
@@ -184,7 +185,7 @@
   /*text-align: center;*/
   margin-left: 15%;
   margin-top: 15%;
-  margin-bottom: 30%;
+  /*margin-bottom: 30%;*/
   /*font-family: "brandon-grotesque";
   font-size: 13px;
   line-height: 2.2;
@@ -276,6 +277,275 @@
   line-height: 40px;
   margin-left: 15%;
   letter-spacing: 2px
+}
+
+.outer-trapezoid {
+  background-color: white;
+  width: 100%;
+  min-height: 759px;
+}
+
+.outer-trapezoid .left-trapezoid {
+  float: left;
+  width: 50%;
+  min-height: 759px;
+  /*height: 759px;*/
+  /*background: #ca312e;*/
+  /*background-color: #ca312e;*/
+  background-color: white;
+  /*border-top: 250px solid #ca312e;
+  border-right: 750px solid transparent;*/
+}
+
+.outer-trapezoid .right-trapezoid {
+  float: right;
+  width: 50%;
+  min-height: 759px;
+  /*background-color: #ca312e;*/
+  background-color: white;
+  /*border-top: 250px solid #ca312e;
+  border-right: 750px solid transparent;*/
+}
+
+.outer-trapezoid .right-trapezoid .upper-trapezoid {
+  width: 100%;
+  height: 50px;
+  background-color: #ca312e;
+  /*width: 100%;
+  height: 200px;
+  border-top: 250px solid #ca312e;
+  border-right: 750px solid transparent;*/
+}
+
+.outer-trapezoid .right-trapezoid .lower-trapezoid {
+  width: 50%;
+  height: 200px;
+  /*background-color: #ca312e;*/
+  border-top: 150px solid #ca312e;
+  border-right: 750px solid #ca312e;
+}
+
+.inner-trapezoid {
+  /* background: teal; */
+  width: 100%;
+  height: 100%;
+}
+
+.inner-trapezoid .inner-left {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background: teal;
+  position: fixed
+}
+
+.inner-trapezoid .inner-right {
+  position: static;
+  overflow: visible;
+  float: right;
+  width: 50%;
+  height: auto;
+  background: white;
+}
+
+.inner-trapezoid .inner-right .hoxbox {
+  /*background: #003a6f;*/
+  background: url(../assets/hoxbox/HoxBox.png);
+  height: 750px;
+  width: 100%;
+  margin-top: -81%;
+  -webkit-transform: skew(0deg, -15deg);
+  -moz-transform: skew(0deg -10deg);
+  -o-transform: skew(0deg -20deg);
+  background-size: cover;
+  /* position:relative; */
+  z-index: -1;
+  opacity: 1;
+  /*transition: 15s transform linear;
+  transform: scale(1);*/
+}
+
+.inner-trapezoid .inner-right .hoxbox:hover {
+  /*background: #003a6f;*/
+  background: url(../assets/hoxbox/HoxBox.png);
+  height: 750px;
+  width: 100%;
+  margin-top: -81%;
+  -webkit-transform: skew(0deg, -15deg);
+  -moz-transform: skew(0deg -10deg);
+  -o-transform: skew(0deg -20deg);
+  background-size: cover;
+  /* position:relative; */
+  z-index: -1;
+  opacity: 0.3;
+  cursor: pointer;
+  /*transition: 15s transform linear;
+  transform: scale(1);*/
+}
+
+.inner-trapezoid .inner-right .slaygram {
+  /*background: #003a6f;*/
+  background: url(../assets/slaygram/slaygram.png);
+  height: 750px;
+  width: 100%;
+  -webkit-transform: skew(0deg, -15deg);
+  -moz-transform: skew(0deg -10deg);
+  -o-transform: skew(0deg -20deg);
+  background-size: cover;
+  /* position:relative; */
+  z-index: -1;
+  opacity: 1;
+  /*transition: 15s transform linear;*/
+  /*transform: scale(1);*/
+}
+
+.inner-trapezoid .inner-right .slaygram:hover {
+  /*background: #003a6f;*/
+  background: url(../assets/slaygram/slaygram.png);
+  height: 750px;
+  width: 100%;
+  -webkit-transform: skew(0deg, -15deg);
+  -moz-transform: skew(0deg -10deg);
+  -o-transform: skew(0deg -20deg);
+  background-size: cover;
+  /* position:relative; */
+  z-index: -1;
+  opacity: 0.3;
+  cursor: pointer;
+  /*transition: 15s transform linear;*/
+  /*transform: scale(1);*/
+}
+
+.inner-trapezoid .inner-right .ugatuzi {
+  /*background: #003a6f;*/
+  background: url(../assets/ugatuzi/ugatuzi.png);
+  height: 750px;
+  width: 100%;
+  -webkit-transform: skew(0deg, -15deg);
+  -moz-transform: skew(0deg -10deg);
+  -o-transform: skew(0deg -20deg);
+  background-size: cover;
+  /* position:relative; */
+  z-index: -1;
+  opacity: 1;
+  /*transition: 15s transform linear;*/
+  /*transform: scale(1);*/
+}
+
+.inner-trapezoid .inner-right .ugatuzi:hover {
+  /*background: #003a6f;*/
+  background: url(../assets/ugatuzi/ugatuzi.png);
+  height: 750px;
+  width: 100%;
+  -webkit-transform: skew(0deg, -15deg);
+  -moz-transform: skew(0deg -10deg);
+  -o-transform: skew(0deg -20deg);
+  background-size: cover;
+  /* position:relative; */
+  z-index: -1;
+  opacity: 0.3;
+  cursor: pointer;
+  /*transition: 15s transform gradient;*/
+  /*position: absolute;*/
+  webkit-transition: 5s ease;
+  /*transform: scale(1);*/
+}
+
+.work-icon {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  /*font: 32px Arial, sans-serif;*/
+  /*transition: .5s ease;*/
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)*/
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*background: black;*/
+  border: 2px solid black;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.modal-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  padding: 10px;
+  /*background: #888888;*/
+  /*color: rgba(255, 255, 255, .6);*/
+  color: #9b9b9b;
+  border: 0;
+}
+
+.project {
+  position: relative;
+  width: 100%;
+  min-height: 759px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+
+.project-images {
+  float: left;
+  width: 50%;
+  max-width: 100%;
+  min-height: 759px;
+  /*background-color: #ca312e;*/
+  display: block;
+  position: relative;
+}
+
+.project-images img {
+  min-width: 50%;
+  min-height: 50%;
+  height: 30%;
+}
+
+.works {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
 }
 
 @media (max-width: 600px) {
